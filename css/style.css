@@ -58,3 +58,15 @@ main{
     border-radius: 22px;
     padding: 8px 12px;
 }
+
+/* responsive text */
+@media screen and (max-width:992px){
+    html{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width:350px){
+    html{
+        font-size: 0.75rem;
+    }
+}
